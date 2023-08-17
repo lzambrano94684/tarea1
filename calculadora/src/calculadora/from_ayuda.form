@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="575" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ayuda" min="-2" pref="575" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="81" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Component id="lbl_ayuda" min="-2" pref="49" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="283" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_ayuda">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Manual de Instrucciones - Calculadora "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;- ATRAS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="lbl_ayudatexto">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="-------------------------------------------------------Uso B&#xe1;sico-------------------------------------------------------------------&#xa;- Ingreso de N&#xfa;meros&#xa;- Selecci&#xf3;n de Operaci&#xf3;n&#xa;- Realizaci&#xf3;n de C&#xe1;lculos&#xa;-------------------------------------------------Men&#xfa;s de Propiedades--------------------------------------------------------&#xa;Nuevo&#xa;Bit&#xe1;cora&#xa;-----------------------------------------------------------------------------------------------------------------------------------------&#xa;1. Introducci&#xf3;n&#xa;La calculadora es una herramienta dise&#xf1;ada para realizar operaciones matem&#xe1;ticas simples, como &#xa;suma, resta, multiplicaci&#xf3;n y divisi&#xf3;n. Adem&#xe1;s, cuenta con funciones para mantener un registro &#xa;de las operaciones realizadas en la bit&#xe1;cora.&#xa;&#xa;2. Uso B&#xe1;sico&#xa;Ingreso de N&#xfa;meros&#xa;Para ingresar un n&#xfa;mero en la calculadora, simplemente haz clic en los botones num&#xe9;ricos (0-9)&#xa; y/o en el bot&#xf3;n de punto decimal (.) si deseas ingresar n&#xfa;meros decimales.&#xa;&#xa;Selecci&#xf3;n de Operaci&#xf3;n&#xa;Despu&#xe9;s de ingresar un n&#xfa;mero, puedes seleccionar la operaci&#xf3;n que deseas realizar. Utiliza los&#xa; botones de suma (+), resta (-), multiplicaci&#xf3;n (*) y divisi&#xf3;n (/) para elegir la operaci&#xf3;n deseada.&#xa;&#xa;Realizaci&#xf3;n de C&#xe1;lculos&#xa;Una vez que hayas ingresado un n&#xfa;mero y seleccionado una operaci&#xf3;n, puedes ingresar otro &#xa;n&#xfa;mero y luego hacer clic en el bot&#xf3;n igual (=) para obtener el resultado de la operaci&#xf3;n.&#xa;&#xa;------------------------------------------------3. Men&#xfa;s de Propiedades--------------------------------------------------&#xa;Nuevo&#xa;El men&#xfa; &quot;Nuevo&quot; te permite borrar todos los n&#xfa;meros y operaciones ingresados, permiti&#xe9;ndote &#xa;comenzar un nuevo c&#xe1;lculo desde cero. &#xa;Tambien elimina todos los datos, eventos y registros de tu bitacora.txt.&#xa;&#xa;Bit&#xe1;cora&#xa;El men&#xfa; &quot;Bit&#xe1;cora&quot; muestra un registro de todas las operaciones realizadas, incluyendo sumas, &#xa;restas, multiplicaciones, divisiones y sus resultados. Puedes acceder a la bit&#xe1;cora para ver el&#xa;historial de operaciones realizadas durante la sesi&#xf3;n actual."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
